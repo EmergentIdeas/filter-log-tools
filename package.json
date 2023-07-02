@@ -1,0 +1,21 @@
+{
+  "name": "filter-log-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "filter-log": "./filter-log-command.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "minimist": "^1.2.8",
+    "through2": "^4.0.2",
+    "tripartite": "^1.0.15"
+  }
+}
